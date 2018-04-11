@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/Downloads/2ndYearProject-master/conf/routes:15:1: value loginSubmit is not a member of controllers.LoginController[0m
+[0m[[0m[31merror[0m] [0m[0mPOST    /loginSubmit                     controllers.LoginController.loginSubmit[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/Downloads/2ndYearProject-master/app/views/login.scala.html:1:1: type login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m@(loginform: Form[models.users.login])[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/Downloads/2ndYearProject-master/app/views/login.scala.html:1:32: type login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m@(loginform: Form[models.users.login])[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/Downloads/2ndYearProject-master/app/views/login.scala.html:10:14: not found: value ifloginform[0m
+[0m[[0m[31merror[0m] [0m[0m            @ifloginform.hasGlobalError.message[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/Downloads/2ndYearProject-master/app/views/login.scala.html:41:2: type login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

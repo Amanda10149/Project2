@@ -1,0 +1,16 @@
+run
+exit
+run
+exit
+run
+sbt
+exit
+run
+sbt
+git add .
+run
+git add .
+cd
+exit
+run
+exit
