@@ -16,7 +16,7 @@ import models.users.*;
 
 public class LoginController extends Controller {
     //depend inject
-    private FormFactrory formFactory;
+    private FormFactory formFactory;
 
     //
     private Environment env;
@@ -40,7 +40,7 @@ public class LoginController extends Controller {
     }
     public Result loginSubmit() {
         // Bind form instance to the values submitted from the form
-        Form<Login> loginForm = formFactory.form(Login.class).bindFormRequest();
+        Form<Login> loginForm = formFactory.form(Login.class).bindFromRequest();
 
         //check for errors
         //uses the validate method defined in the login class
